@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/media/logo.png" alt="SamNPlayer mark" width="140" />
+  <img src="https://raw.githubusercontent.com/funfunpayer/SamNPlayer/main/docs/media/logo.png" alt="SamNPlayer mark" width="140" />
 </p>
 
 <h1 align="center">SamNPlayer</h1>
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/media/wordmark.png" alt="SamNPlayer wordmark" width="320" />
+  <img src="https://raw.githubusercontent.com/funfunpayer/SamNPlayer/main/docs/media/wordmark.png" alt="SamNPlayer wordmark" width="320" />
 </p>
 
 > **This page is the public showcase.** The application **source code is private**
@@ -49,17 +49,17 @@ fashion UI rewrites, or cloud sync of your library.
 ## Screenshots
 
 <p align="center">
-  <img src="docs/media/gui-generator.png" alt="Generator tab" width="900" />
+  <img src="https://raw.githubusercontent.com/funfunpayer/SamNPlayer/main/docs/media/gui-generator.png" alt="Generator tab" width="900" />
   <br /><em>Generate</em> — ROI workflow, Tf/Tj, Quality Doctor on the rail
 </p>
 
 <p align="center">
-  <img src="docs/media/gui-playback.png" alt="Playback tab" width="900" />
+  <img src="https://raw.githubusercontent.com/funfunpayer/SamNPlayer/main/docs/media/gui-playback.png" alt="Playback tab" width="900" />
   <br /><em>Playback</em> — script-alone or video-synced; heatmap & playlist
 </p>
 
 <p align="center">
-  <img src="docs/media/gui-player-rail.png" alt="Player with live meters" width="900" />
+  <img src="https://raw.githubusercontent.com/funfunpayer/SamNPlayer/main/docs/media/gui-player-rail.png" alt="Player with live meters" width="900" />
   <br />Live vibration / suction meters — curve & device run even without a film
 </p>
 
@@ -77,9 +77,8 @@ fashion UI rewrites, or cloud sync of your library.
 
 ## Downloads
 
-Binaries are distributed by the team (not as a public open-source build farm
-on this page). Ask the maintainers for the current Windows / Linux GUI or CLI
-build if you have access.
+Binaries are distributed by the team. Ask the maintainers for the current
+Windows / Linux GUI or CLI build if you have access.
 
 ---
 
@@ -88,10 +87,10 @@ build if you have access.
 | Who | What they get |
 |-----|----------------|
 | **Core team** | Private application repository (full source, CI, releases) |
-| **Everyone else (e.g. reviewers)** | **This showcase only** — no fork, no clone of the product source |
+| **Everyone else (e.g. Anna)** | **This showcase only** — no fork, no clone of the product source |
 
-If you need a build or a demo, contact the maintainers — do not expect
-a public `git clone` of the app.
+Contact the maintainers for a build or demo — there is no public `git clone`
+of the application.
 
 ---
 
