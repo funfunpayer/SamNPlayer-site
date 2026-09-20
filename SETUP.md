@@ -1,18 +1,13 @@
 # Owner: public downloads + private source
 
-1. `funfunpayer/SamNPlayer` stays **private** (source + CI).
-2. **This** repo (`SamNPlayer-site`) stays **public** (landing + binaries).
-3. After each private app release, publish the same binaries here
-   (from the private checkout, as owner):
+From a private `SamNPlayer` checkout (as **funfunpayer**):
 
 ```bash
-./scripts/publish-public-release.sh v0.5.10
+./scripts/sync-public-site.sh          # media + website/ → this repo
+./scripts/publish-public-release.sh v0.5.10   # after private tag builds
 ```
 
-4. Screenshots live under `docs/media/` and `media/` (relative paths only —
-   never `raw.githubusercontent.com/.../SamNPlayer/...` once the app is private).
+Then enable **GitHub Pages** (`main` / root) so `index.html` is the landing.
 
-5. Enable **GitHub Pages** on this repo (`main` / root) so `index.html` is the
-   product landing. Set the repo homepage URL to the Pages site.
-
-Full write-up: private app `docs/CLOSED_SOURCE.md`.
+Do **not** point images at `raw.githubusercontent.com/.../SamNPlayer/...` —
+the app repo is private and those URLs 404 for visitors.

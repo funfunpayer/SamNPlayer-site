@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="docs/media/logo.png" alt="SamNPlayer mark" width="140" />
-</p>
-
 <h1 align="center">SamNPlayer</h1>
 
 <p align="center">
@@ -22,16 +18,13 @@
   <a href="./index.html">Product page</a>
   ·
   <a href="#why-samnplayer">Why this app</a>
-  ·
-  <a href="#screenshots">Screenshots</a>
 </p>
 
-<p align="center">
-  <img src="docs/media/wordmark.png" alt="SamNPlayer wordmark" width="320" />
-</p>
-
-> **Public:** this page, the [HTML landing](./index.html), and **release binaries**.  
-> **Private:** application source (team only) — not in this repository.
+> **Public:** this page + **release binaries**.  
+> **Private:** application source (team only).
+>
+> Screenshots/logo files: run once from the private app checkout  
+> `./scripts/sync-public-site.sh` (copies `docs/media` + `website/` here).
 
 ---
 
@@ -49,25 +42,6 @@
 
 ---
 
-## Screenshots
-
-<p align="center">
-  <img src="docs/media/gui-generator.png" alt="Generator" width="900" /><br />
-  <em>Generate</em> — mark ROI(s), Tf/Tj, Quality Doctor on the rail
-</p>
-
-<p align="center">
-  <img src="docs/media/gui-playback.png" alt="Playback" width="900" /><br />
-  <em>Playback</em> — video sync or script-alone; heatmap, contact vibration
-</p>
-
-<p align="center">
-  <img src="docs/media/gui-player-rail.png" alt="Player meters" width="900" /><br />
-  Live device meters, soft, Extended-O
-</p>
-
----
-
 ## Downloads (public)
 
 Windows and Linux **GUI + CLI** builds (prefer **portable** — ffmpeg included)
@@ -77,20 +51,13 @@ are attached to releases on **this** repository:
 
 Verify with `checksums.txt` in the same release.
 
-| Platform | Now | Later |
-|----------|-----|-------|
-| Windows / Linux | GUI + CLI + portable ffmpeg | — |
-| macOS | — | Signed `.app` when a Mac builder exists |
-| Phone | — | Player only |
-
-Personal license: **€40 / year** (see [product page](./index.html#license)). Enforcement rolls out after checkout is live.
+Personal license: **€40 / year** (product page after sync).
 
 ---
 
 ## Source
 
-The application repository is **private**. There is no public fork or clone of
-the product source. This showcase ships binaries, screenshots, and the landing
-page only.
+The application repository is **private**. This showcase ships binaries and
+the landing page only — never the product source.
 
 © 2026 funfunpayer
