@@ -7,20 +7,20 @@
 
 <p align="center">
   <img alt="Closed source" src="https://img.shields.io/badge/source-private-334155?style=flat-square" />
-  <img alt="Downloads" src="https://img.shields.io/badge/downloads-public%20releases-0d9488?style=flat-square" />
+  <img alt="Freeware" src="https://img.shields.io/badge/license-freeware-0d9488?style=flat-square" />
   <img alt="No Electron" src="https://img.shields.io/badge/GUI-~13%20MB%20native-0d9488?style=flat-square" />
   <img alt="Local only" src="https://img.shields.io/badge/AI-local%20optional-334155?style=flat-square" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/funfunpayer/SamNPlayer-site/releases/latest"><strong>Download portable</strong></a>
+  <a href="#downloads-public"><strong>Downloads</strong></a>
   ·
   <a href="./index.html">Product page</a>
   ·
   <a href="#why-samnplayer">Why this app</a>
 </p>
 
-> **Public:** this page + **release binaries**.  
+> **Free by design:** SamNPlayer is free to use, with no subscription or license-key activation.\n> **Public:** project information and publicly published release binaries, when available.  
 > **Private:** application source (team only).
 >
 > Screenshots/logo files: run once from the private app checkout  
@@ -28,7 +28,7 @@
 
 ---
 
-## Why SamNPlayer
+## Free by design\n\nSamNPlayer is intentionally **freeware**. We build it to make video playback, Funscript creation and device control more accessible — not as a paid product that later became free. No license fees, subscriptions or activation keys are required. Optional donations may support continued development.\n\nSamNPlayer is **proprietary, closed-source software**; free to use does not mean open source. We welcome testers, bug reports and feature suggestions.\n\n## Why SamNPlayer
 
 | | Typical alternatives | **SamNPlayer** |
 |---|---|---|
@@ -44,14 +44,7 @@
 
 ## Downloads (public)
 
-Windows and Linux **GUI + CLI** builds (prefer **portable** — ffmpeg included)
-are attached to releases on **this** repository:
-
-**→ [Latest release](https://github.com/funfunpayer/SamNPlayer-site/releases/latest)**
-
-Verify with `checksums.txt` in the same release.
-
-Personal license: **€40 / year** (product page after sync).
+Public builds, when published, can be found under the [releases of this repository](https://github.com/funfunpayer/SamNPlayer-site/releases). Check the available assets and release notes before downloading; the existence of a newer private development version does not mean a public binary has been published.\n\nWe are looking for testers! Please share reproducible bugs, device compatibility results, usability feedback and feature ideas via the [public issue tracker](https://github.com/funfunpayer/SamNPlayer-site/issues).
 
 ---
 
